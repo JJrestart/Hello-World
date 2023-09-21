@@ -3,3 +3,4 @@
 
 # ignore ALL .html files
 *.html
+__pycache__
