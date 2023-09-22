@@ -1,10 +1,10 @@
+student = {}
 
+def myInput(man) :
+    name = input("Enter your Name : ")
+    age = input("Enter your Age : ")
+    man["name"] = name
+    man["age"] = age
 
-def change(target) :
-    target = 100
-    print("In the change : target = %d" % target)
-
-original = 5
-print("Before Call change : original = %d" % original)
-change(original)
-print("After Call change : original = %d" % original)
+myInput(student)
+print(student)
